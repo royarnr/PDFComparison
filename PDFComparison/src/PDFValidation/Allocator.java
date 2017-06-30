@@ -28,6 +28,7 @@ public class Allocator {
 	private static GUI uiForm = GUI.getInstance();
 	private static Properties properties;
 	private static Logger log = Logger.getInstance();
+	//test changes
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
