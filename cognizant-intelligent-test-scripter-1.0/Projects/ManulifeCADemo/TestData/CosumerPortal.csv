@@ -1,0 +1,6 @@
+Scenario,Flow,Iteration,SubIteration,StartintoPlanText,GrowingText,PageTileMutual,URL,Username,Password,AccountName,AccountType,Billing Street,Billing City,Billing State,Postal Code,Country,Salutation,FirstName,LastName
+ManulifeCA,ManulifeCA-Business,1,1,,Growing,,https://www.manulife.ca,,,,,,,,,,,,
+ManulifeCA,ManulifeCA-StartingtoPlan,1,1,Find out how to create a personal financial plan so that you’re prepared for all that life throws at you – from managing debt to saving for retirement.,,,https://www.manulife.ca,,,,,,,,,,,,
+ManulifeCA,ManulifeCA-GrowingPage,1,1,,,Mutual,https://www.manulife.ca,,,,,,,,,,,,
+ManulifeCA,SFDC_ContactCreation,1,1,,,,https://login.salesforce.com,arnaba784@gmail.com,arnab1234,Manulife Financial,,,,,,,Mr.,Vikram,Shahi
+ManulifeCA,SFDC_AccountCreation,1,1,,,,https://login.salesforce.com,arnaba784@gmail.com,arnab1234,Manulife Financial,Customer,123 Main St,Kitchener,ON,L9T8L9,CA,,,

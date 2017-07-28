@@ -1,0 +1,6 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+false,ManulifeCA,ManulifeCA-StartingtoPlan,Single,Passed,Chrome,Default,WINDOWS
+false,ManulifeCA,ManulifeCA-Business,Single,Passed,Firefox,Default,WINDOWS
+false,ManulifeCA,ManulifeCA-GrowingPage,Single,Passed,Chrome,Default,WINDOWS
+true,ManulifeCA,SFDC_ContactCreation,Single,Passed,Chrome,Default,WINDOWS
+false,ManulifeCA,SFDC_AccountCreation,Single,Passed,Chrome,Default,Any

@@ -145,7 +145,7 @@ public class PDFPageExtractor {
 			e.printStackTrace();
 		}
 		int numPgs = pdffile.getNumPages();
-		for (int i = 0; i < numPgs; i++) {
+		for (int i = 1; i <= numPgs; i++) {
 			// draw the first page to an image
 			PDFPage page = pdffile.getPage(i);
 			// get the width and height for the doc at the default zoom
@@ -160,7 +160,7 @@ public class PDFPageExtractor {
 			// save it as a file
 			BufferedImage bImg = toBufferedImage(img);
 			try {
-				ImageIO.write(bImg, "png", new File(filename+File.separator+"Page_"+i+".png"));
+				ImageIO.write(bImg, "png", new File(filename+File.separator+"Page_"+(i-1)+".png"));
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

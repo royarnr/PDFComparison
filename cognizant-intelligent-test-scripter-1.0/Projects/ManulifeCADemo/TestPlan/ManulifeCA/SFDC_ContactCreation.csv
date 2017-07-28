@@ -1,0 +1,14 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,CosumerPortal:URL,,
+2,username,Enter the value [<Data>] in the Field [<Object>],Set,CosumerPortal:Username,,Login
+3,Password,Enter the value [<Data>] in the Field [<Object>],Set,CosumerPortal:Password,,Login
+4,Log In,"Click the [<Object>] ",Click,,,Login
+5,Contacts,"Click the [<Object>] ",Click,,,Salesforce
+6,New,"Click the [<Object>] ",Click,,,Contacts_
+7,name_salutationcon2,Select item in [<Object>] which has the value: [<Data>],selectByValue,CosumerPortal:Salutation,,Contact
+8,First Name,Enter the value [<Data>] in the Field [<Object>],Set,CosumerPortal:FirstName,,Contact
+9,*Last Name,Enter the value [<Data>] in the Field [<Object>],Set,CosumerPortal:LastName,,Contact
+10,*Account Name,Enter the value [<Data>] in the Field [<Object>],Set,CosumerPortal:AccountName,,Contact
+11,Save & New,"Click the [<Object>] ",Click,,,Contact
+12,Contacts,"Click the [<Object>] ",Click,,,Salesforce
+13,FirstContactinview,Assert if [<Object>]'s Text Contains [Ignorecase] [<Data>],assertElementTextIContains,CosumerPortal:LastName,,Contacts_

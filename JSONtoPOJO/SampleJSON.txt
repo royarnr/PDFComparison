@@ -1,8 +1,0 @@
-{"person":
-	{
-		"name":"Arnab",
-		"city":"Kolkata",
-		"age":21,
-		"skills":["Selenium","Java","VBScript"]
-	}
-}

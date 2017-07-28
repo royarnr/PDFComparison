@@ -1,0 +1,460 @@
+<Root type="OR" ref="IFDS">
+  <Page title="" ref="IFDSGroupHome">
+    <ObjectGroup ref="MarketLink">
+      <Object frame="" ref="MarketLink">
+        <Property value="//span[text()='Markets']" ref="relative_xpath" pref="4"/>
+        <Property value="//span[text()='Markets']" ref="xpath" pref="5"/>
+        <Property value="" ref="name" pref="1"/>
+        <Property value=".level1.item110.parent" ref="css" pref="7"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="NorthAmericaLink">
+      <Object frame="" ref="NorthAmericaLink">
+        <Property value="//span[text()='North America']" ref="relative_xpath" pref="4"/>
+        <Property value="//span[text()='North America']/parent::a" ref="xpath" pref="5"/>
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="MediaLink">
+      <Object frame="" ref="MediaLink">
+        <Property value="//span[text()='Media']" ref="relative_xpath" pref="4"/>
+        <Property value="//span[text()='Media']" ref="xpath" pref="5"/>
+        <Property value="" ref="name" pref="1"/>
+        <Property value=".level1.item111.parent" ref="css" pref="7"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="ThoughtLdrLink">
+      <Object frame="" ref="ThoughtLdrLink">
+        <Property value="//span[text()='Thought Leadership']" ref="relative_xpath" pref="4"/>
+        <Property value="//span[text()='Thought Leadership']/parent::a" ref="xpath" pref="5"/>
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="AlertOK">
+      <Object frame="" ref="AlertOK">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="(//a[@class='w357_cpnb_button'])[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Thought Leadership">
+      <Object frame="" ref="Thought Leadership">
+        <Property value="//span[text()='Thought Leadership']" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="/html/body/div[2]/div/header/nav/ul/li[3]/div/div/div/div/div/div/ul/li[2]/a/span" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="li.level2.item125 > a.level2 > span" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Careers">
+      <Object frame="" ref="Careers">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="//span[text()='Careers']" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Contacts">
+      <Object frame="" ref="Contacts">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//span[text()='Contact']" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="IFDSMarkets_NA">
+    <ObjectGroup ref="iFastImage">
+      <Object frame="" ref="iFastImage">
+        <Property value="//img[@alt='iFast']" ref="relative_xpath" pref="4"/>
+        <Property value="//img[@alt='iFast']" ref="xpath" pref="5"/>
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="ThoughtLeadership">
+    <ObjectGroup ref="ThoughtLeadershipText">
+      <Object frame="" ref="ThoughtLeadershipText">
+        <Property value="//h1[text()[contains(.,'Thought Leadership')]]" ref="relative_xpath" pref="4"/>
+        <Property value="//h1[text()[contains(.,'Thought Leadership')]]" ref="xpath" pref="5"/>
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="PressRelease">
+      <Object frame="" ref="PressRelease">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="//span[text()='Press Releases &amp; Events']" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="SpyDemo">
+    <ObjectGroup ref="DemoObject1">
+      <Object frame="" ref="DemoObject1">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="RSS for all" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'RSS for all')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div[2]/div[2]/div[3]/table/tbody/tr/td[2]/div/span/a[2])[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > div.dashboard > div:nth-of-type(2) > table > tbody > tr > td:nth-of-type(1) > div > span > a:nth-of-type(1)" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Dashboard [Jenkins]" ref="Dashboard">
+    <ObjectGroup ref="W">
+      <Object frame="" ref="W">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="W" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'W')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div[2]/div[2]/div[2]/table/tbody/tr/th[2]/a" ref="xpath" pref="5"/>
+        <Property value="sortheader" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > div.dashboard > div.pane-frame > #projectstatus > tbody > tr.header > th:nth-of-type(1) > a.sortheader" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Test1">
+      <Object frame="" ref="Test1">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Test1" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Test1')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div[2]/div[2]/div[2]/table/tbody/tr[2]/td[3]/a" ref="xpath" pref="5"/>
+        <Property value="model-link inside" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > div.dashboard > div.pane-frame > #projectstatus > tbody > #job_Test1 > td:nth-of-type(2) > a.model-link.inside" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="1 min 18 sec - #2">
+      <Object frame="" ref="1 min 18 sec - #2">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='1 min 18 sec - #2']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div[2]/div[2]/div[2]/table/tbody/tr[2]/td[4]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > div.dashboard > div.pane-frame > #projectstatus > tbody > #job_Test1 > td:nth-of-type(3)" ref="css" pref="7"/>
+        <Property value="td" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Need to schedule a job every hour in jenkins - Super User" ref="Need">
+    <ObjectGroup ref="How to get Jenkins Job executi">
+      <Object frame="" ref="How to get Jenkins Job executi">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="gourav" ref="id" pref="2"/>
+        <Property value="exact:Why doesn't the definition of dependence require that one can expresses each vector in terms of the others?" ref="link_text" pref="3"/>
+        <Property value="//a[contains(@href, 'https://math.stackexchange.com/questions/2360181/why-doesnt-the-definition-of-dependence-require-that-one-can-expresses-each-vec')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div[2]/div/div[4]/div[5]/ul/li[2]/a" ref="xpath" pref="5"/>
+        <Property value="js-gps-track" ref="class" pref="6"/>
+        <Property value="html > body.question-page.new-topbar > div.container > #content > div > #sidebar > #hot-network-questions > ul > li:nth-of-type(1) > a.js-gps-track" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="IFDS Group - Investor &amp; policyholder administration" ref="IFDS">
+    <ObjectGroup ref="Awards">
+      <Object frame="" ref="Awards">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Awards']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div/header/nav/ul/li[4]/a/span" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="li.level1.item131 > a.level1 > span" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Careers">
+      <Object frame="" ref="Careers">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//*[normalize-space(text())='Careers'])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div/header/nav/ul/li[6]/a/span" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="li.level1.item369 > a.level1 > span" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="IFDS Client Login">
+      <Object frame="" ref="IFDS Client Login">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//img[@alt='IFDS Client Login']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div/div[3]/div/a/img" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="img[alt=&quot;IFDS Client Login&quot;]" ref="css" pref="7"/>
+        <Property value="img" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="IFDS Insight (Canada)">
+      <Object frame="" ref="IFDS Insight (Canada)">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="IFDS Insight (Canada)" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'IFDS Insight (Canada)')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[9]/div/div/div/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > #page > #lightbox-wrap > #lightbox-outer > #lightbox-content > div > #inline > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Contact">
+      <Object frame="" ref="Contact">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Contact']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div/header/nav/ul/li[7]/a/span" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="li.level1.item114 > a.level1 > span" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="icon">
+      <Object frame="" ref="icon">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//a/span/span" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div/header/nav/ul/li/a/span/span" ref="xpath" pref="5"/>
+        <Property value="icon" ref="class" pref="6"/>
+        <Property value="span.icon" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="IFDS Group - Awards" ref="IFDS1">
+    <ObjectGroup ref="Awards &amp; Corporate Recognition">
+      <Object frame="" ref="Awards &amp; Corporate Recognition">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Awards &amp; Corporate Recognition']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[3]/div/div/div/section[2]/div[2]/div/div[2]/h1" ref="xpath" pref="5"/>
+        <Property value="title" ref="class" pref="6"/>
+        <Property value="h1.title" ref="css" pref="7"/>
+        <Property value="h1" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="IFDS Group - Careers" ref="IFDS2">
+    <ObjectGroup ref="Contact">
+      <Object frame="" ref="Contact">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Contact']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div/header/nav/ul/li[7]/a/span" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="li.level1.item114 > a.level1 > span" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="IFDS Group - Contact" ref="IFDS3">
+    <ObjectGroup ref="Europe">
+      <Object frame="" ref="Europe">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//*[normalize-space(text())='Europe'])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div/header/nav/ul/li[2]/div/div/div/div/div/div/ul/li[2]/a/span" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="li.level2.item177 > a.level2 > span" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Contact">
+      <Object frame="" ref="Contact">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//*[normalize-space(text())='Contact'])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div/header/nav/ul/li[7]/a/span" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > #page > #block-header > div.wrapper > #header > #menu > ul.menu.menu-dropdown > li.level1.item114 active current > a.level1.active current > span" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Careers">
+      <Object frame="" ref="Careers">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='About Us']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div/header/nav/ul/li[5]/span/span" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > #page > #block-header > div.wrapper > #header > #menu > ul.menu.menu-dropdown > li.level1.item109 parent remain > span.separator.level1 parent > span" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="About Us">
+      <Object frame="" ref="About Us">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='About Us']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div/header/nav/ul/li[5]/span/span" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > #page > #block-header > div.wrapper > #header > #menu > ul.menu.menu-dropdown > li.level1.item109 parent remain > span.separator.level1 parent > span" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Corporate Overview">
+      <Object frame="" ref="Corporate Overview">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Corporate Overview']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[2]/div/header/nav/ul/li[5]/div/div/div/div/div/div/ul/li/a/span)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="li.level2.item115 > a.level2 > span" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="IFDS Client Login">
+      <Object frame="" ref="IFDS Client Login">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//img[@alt='IFDS Client Login']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div/div[3]/div/a/img" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="img[alt=&quot;IFDS Client Login&quot;]" ref="css" pref="7"/>
+        <Property value="img" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="IFDS Insight (Canada)">
+      <Object frame="" ref="IFDS Insight (Canada)">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="IFDS Insight (Canada)" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'IFDS Insight (Canada)')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[9]/div/div/div/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > #page > #lightbox-wrap > #lightbox-outer > #lightbox-content > div > #inline > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="IFDS Group - Europe" ref="IFDS4">
+    <ObjectGroup ref="FundSolutions">
+      <Object frame="" ref="FundSolutions">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='FundSolutions']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div/header/nav/ul/li[3]/a/span" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > #page > #block-header > div.wrapper > #header > #menu > ul.menu.menu-dropdown > li.level1.item166 hassubtitle > a.level1 > span" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="iFAST ACS Services" ref="iFAST">
+    <ObjectGroup ref="userid">
+      <Object frame="" ref="userid">
+        <Property value="userid" ref="name" pref="1"/>
+        <Property value="userid" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[2]/input" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div[2]/form/div[2]/input" ref="xpath" pref="5"/>
+        <Property value="required" ref="class" pref="6"/>
+        <Property value="#userid" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="password">
+      <Object frame="" ref="password">
+        <Property value="password" ref="name" pref="1"/>
+        <Property value="password" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[3]/input" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div[2]/form/div[3]/input" ref="xpath" pref="5"/>
+        <Property value="required" ref="class" pref="6"/>
+        <Property value="#password" ref="css" pref="7"/>
+        <Property value="password" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Login">
+      <Object frame="" ref="Login">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="submit_login" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//*[normalize-space(text())='Login'])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[2]/div[2]/form/div[7]/button/span)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#submit_login" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="Dummypage">
+    <ObjectGroup ref="Username_dummy">
+      <Object frame="" ref="Username_dummy">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//img[@alt='IFDS Client Login']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div/div[3]/div/a/img" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="img[alt=&quot;IFDS Client Login&quot;]" ref="css" pref="7"/>
+        <Property value="img" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

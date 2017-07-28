@@ -1,0 +1,129 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_102
+java.home            : C:\Program Files\Java\jre1.8.0_102
+os.name              : Windows 7
+os.arch              : amd64
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Fri Jul 28 15:51:03 IST 2017
+Loading Browser Profile
+Loading RunManager
+[Scenario:ManulifeCA] [TestCase: SFDC_ContactCreation] [Description: SFDC_ContactCreation] [Browser: Chrome] [BrowserVersion: Default] [Platform: WINDOWS][ExistingBrowser: false]
+----------------------------------------------------------
+[1] TestCase selected for execution from [//ManulifeCADemo/Demo]
+----------------------------------------------------------
+Initializing Report
+2017-07-28 15:51:03:07S +0530 [INFO] com.cognizant.cognizantits.engine.reporting.sync.qc.rest.QCRestSync <init>:Initializing TM integration with QC Rest API
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 14240
+Only local connections are allowed.
+2017-07-28 15:51:10:07S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: CosumerPortal:URL | Conditon:  | @28-Jul-2017 15:51:11.011
+[DONE]   | Opened Url: https://login.salesforce.com
+
+===================================================================================================
+
+Step:2   | Object: username | Action: Set | Input: CosumerPortal:Username | Conditon:  | @28-Jul-2017 15:51:20.020
+Using @name [username], Object 'username' Found in 24 ms
+[DONE]   | Entered Text 'arnaba784@gmail.com' on 'username'
+
+===================================================================================================
+
+Step:3   | Object: Password | Action: Set | Input: CosumerPortal:Password | Conditon:  | @28-Jul-2017 15:51:21.021
+Using @name [pw], Object 'Password' Found in 29 ms
+[DONE]   | Entered Text 'arnab1234' on 'Password'
+
+===================================================================================================
+
+Step:4   | Object: Log In | Action: Click | Input:  | Conditon:  | @28-Jul-2017 15:51:21.021
+Using @name [Login], Object 'Log In' Found in 32 ms
+[DONE]   | Clicking on Log In
+
+===================================================================================================
+
+Step:5   | Object: Contacts | Action: Click | Input:  | Conditon:  | @28-Jul-2017 15:51:25.025
+Using @id [Contact_Tab], Object 'Contacts' Found in 10892 ms
+[DONE]   | Clicking on Contacts
+
+===================================================================================================
+
+Step:6   | Object: New | Action: Click | Input:  | Conditon:  | @28-Jul-2017 15:51:40.040
+Using @name [new], Object 'New' Found in 21 ms
+[DONE]   | Clicking on New
+
+===================================================================================================
+
+Step:7   | Object: name_salutationcon2 | Action: selectByValue | Input: CosumerPortal:Salutation | Conditon:  | @28-Jul-2017 15:51:42.042
+Using @name [name_salutationcon2], Object 'name_salutationcon2' Found in 24 ms
+[DONE]   | Item/s 'Mr.' is/are selected from list name_salutationcon2
+
+===================================================================================================
+
+Step:8   | Object: First Name | Action: Set | Input: CosumerPortal:FirstName | Conditon:  | @28-Jul-2017 15:51:43.043
+Using @name [name_firstcon2], Object 'First Name' Found in 23 ms
+[DONE]   | Entered Text 'Vikram' on 'First Name'
+
+===================================================================================================
+
+Step:9   | Object: *Last Name | Action: Set | Input: CosumerPortal:LastName | Conditon:  | @28-Jul-2017 15:51:43.043
+Using @name [name_lastcon2], Object '*Last Name' Found in 19 ms
+[DONE]   | Entered Text 'Shahi' on '*Last Name'
+
+===================================================================================================
+
+Step:10  | Object: *Account Name | Action: Set | Input: CosumerPortal:AccountName | Conditon:  | @28-Jul-2017 15:51:43.043
+Using @name [con4], Object '*Account Name' Found in 22 ms
+[DONE]   | Entered Text 'Manulife Financial' on '*Account Name'
+
+===================================================================================================
+
+Step:11  | Object: Save & New | Action: Click | Input:  | Conditon:  | @28-Jul-2017 15:51:43.043
+Using @name [save_new], Object 'Save & New' Found in 21 ms
+[DONE]   | Clicking on Save & New
+
+===================================================================================================
+
+Step:12  | Object: Contacts | Action: Click | Input:  | Conditon:  | @28-Jul-2017 15:51:45.045
+Using @id [Contact_Tab], Object 'Contacts' Found in 30 ms
+[DONE]   | Clicking on Contacts
+
+===================================================================================================
+
+Step:13  | Object: FirstContactinview | Action: assertElementTextIContains | Input: CosumerPortal:LastName | Conditon:  | @28-Jul-2017 15:51:46.046
+Using @xpath [/html/body/div/div[2]/table/tbody/tr/td[2]/div[3]/div/div/div[2]/table/tbody/tr[2]/th/a], Object 'FirstContactinview' Found in 23 ms
+[PASS]   | FirstContactinview's Text CONTAINS Shahi 
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : ManulifeCA:SFDC_ContactCreation
+Executed Steps       : 13
+Passed Steps         : 13
+Failed Steps         : 0
+Time Taken           : 00:00:40
+-----------------------------------------------------
+
+[ERROR:UNABLE TO REACH TEST MANAGEMENT MODULE!!!]
+[DEBUG]   | Unable to Connect to TM Module
+
+===================================================================================================
+
+Run Finished on Fri Jul 28 15:51:46 IST 2017
+-----------------------------------------------------
+ExecutionDate        : 28-Jul-2017 15-51-03
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:40
+ReportPath           : file:///D:\Arnab Da\cognizant-intelligent-test-scripter-1.0-setup\cognizant-intelligent-test-scripter-1.0\Projects\ManulifeCADemo\Results\TestExecution\ManulifeCADemo\Demo\28-Jul-2017 15-51-03\summary.html
+-----------------------------------------------------

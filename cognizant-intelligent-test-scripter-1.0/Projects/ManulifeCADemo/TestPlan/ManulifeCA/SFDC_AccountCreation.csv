@@ -1,0 +1,17 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,CosumerPortal:URL,,
+2,username,Enter the value [<Data>] in the Field [<Object>],Set,CosumerPortal:Username,,Login
+3,Password,Enter the value [<Data>] in the Field [<Object>],Set,CosumerPortal:Password,,Login
+4,Log In,"Click the [<Object>] ",Click,,,Login
+5,Accounts,"Click the [<Object>] ",Click,,,Salesforce
+6,New,"Click the [<Object>] ",Click,,,Accounts_
+7,*Account Name,Enter the value [<Data>] in the Field [<Object>],Set,CosumerPortal:AccountName,,Account
+8,acc6,Select item in [<Object>] which has the value: [<Data>],selectByValue,CosumerPortal:AccountType,,Account
+9,Billing Street,Enter the value [<Data>] in the Field [<Object>],Set,CosumerPortal:Billing Street,,Account
+10,Billing City,Enter the value [<Data>] in the Field [<Object>],Set,CosumerPortal:Billing City,,Account
+11,Billing State/Province,Enter the value [<Data>] in the Field [<Object>],Set,CosumerPortal:Billing State,,Account
+12,Billing Zip/Postal Code,Enter the value [<Data>] in the Field [<Object>],Set,CosumerPortal:Postal Code,,Account
+13,Billing Country,Enter the value [<Data>] in the Field [<Object>],Set,CosumerPortal:Country,,Account
+14,Save & New,"Click the [<Object>] ",Click,,,Account
+15,Accounts,"Click the [<Object>] ",Click,,,Salesforce
+16,FirstAccountName,Assert if [<Object>]'s Text Contains [<Data>],assertElementTextContains,CosumerPortal:AccountName,,Accounts_

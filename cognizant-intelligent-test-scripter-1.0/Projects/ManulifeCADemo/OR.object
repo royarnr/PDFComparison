@@ -1,0 +1,496 @@
+<Root type="OR" ref="ManulifeCADemo">
+  <Page title="For you" ref="ForYou">
+    <ObjectGroup ref="For business">
+      <Object frame="" ref="For business">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="For business" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'For business')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/header/nav/div/div/ul/li[2]/a)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > body > #header > nav.navbar.navbar-default > div.container-fluid > #primary-navigation > #for-who > li:nth-of-type(1) > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="StartingtoPlan">
+      <Object frame="" ref="StartingtoPlan">
+        <Property value="//a[text()[contains(.,' Starting to plan ')]]" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//a[text()[contains(.,' Starting to plan ')]]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Insurance">
+      <Object frame="" ref="Insurance">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Insurance" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'Insurance')])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/header/div/nav/div/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="dropdown-toggle" ref="class" pref="6"/>
+        <Property value="html > body > #header > div.container-fluid.visible-md visible-lg > nav.navbar.navbar-inverse > #mega-menu-updated > ul.nav.nav-pills nav-justified js-nav-menu > li.dropdown.js-nav-item > a.dropdown-toggle" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Health &amp; dental">
+      <Object frame="" ref="Health &amp; dental">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Health &amp; dental']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/header/div/nav/div/ul/li[3]/div/div/div[2]/div/div/div/div/a/span[2])[1]" ref="xpath" pref="5"/>
+        <Property value="navtitle" ref="class" pref="6"/>
+        <Property value="html > body > #header > div.container-fluid.visible-md visible-lg > nav.navbar.navbar-inverse > #mega-menu-updated > ul.nav.nav-pills nav-justified js-nav-menu > li.dropdown.js-nav-item open > div.dropdown-menu.js-sub-nav > div.dropdown-overlay.row > div.list-group.col-xs-3 > div.list-group-section > div.list-group-item > div.submenu-updated > div.menu-element > a > span.navtitle" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="ml-icons life_RaisingAFamily">
+      <Object frame="" ref="ml-icons life_RaisingAFamily">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[2]/ul/li[2]/a/span" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/main/div/div/div/div[2]/ul/li[2]/a/span" ref="xpath" pref="5"/>
+        <Property value="ml-icons life_RaisingAFamily" ref="class" pref="6"/>
+        <Property value="span.ml-icons.life_RaisingAFamily" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="ml-icons retirementPlanning">
+      <Object frame="" ref="ml-icons retirementPlanning">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[2]/ul/li[3]/a/span" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/main/div/div/div/div[2]/ul/li[3]/a/span" ref="xpath" pref="5"/>
+        <Property value="ml-icons retirementPlanning" ref="class" pref="6"/>
+        <Property value="span.ml-icons.retirementPlanning" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Why Manulife">
+      <Object frame="" ref="Why Manulife">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Why Manulife" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'Why Manulife')])[3]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/header/div/nav/div/ul/li[5]/a" ref="xpath" pref="5"/>
+        <Property value="dropdown-toggle" ref="class" pref="6"/>
+        <Property value="html > body > #header > div.container-fluid.visible-md visible-lg > nav.navbar.navbar-inverse > #mega-menu-updated > ul.nav.nav-pills nav-justified js-nav-menu > li.dropdown.js-nav-item > a.dropdown-toggle" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Choose Manulife">
+      <Object frame="" ref="Choose Manulife">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//*[normalize-space(text())='Choose Manulife'])[3]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/header/div/nav/div/ul/li[5]/div/div/div/div[2]/div/div/div/a/span[2]" ref="xpath" pref="5"/>
+        <Property value="navtitle" ref="class" pref="6"/>
+        <Property value="html > body > #header > div.container-fluid.visible-md visible-lg > nav.navbar.navbar-inverse > #mega-menu-updated > ul.nav.nav-pills nav-justified js-nav-menu > li.dropdown.js-nav-item open > div.dropdown-menu.js-sub-nav dropdown-menu-single > div.dropdown-overlay.row > div.list-group > div.list-group-section > div.list-group-item > div.submenu-updated > div.menu-element > a > span.navtitle" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="For business" ref="ForBusiness">
+    <ObjectGroup ref="manupicto manupicto-arrow-down">
+      <Object frame="" ref="manupicto manupicto-arrow-down">
+        <Property value="(//a[text()[contains(.,'Business stages')]])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="/html/body/header/div/nav/div/ul/li[2]/a/span" ref="xpath" pref="5"/>
+        <Property value="manupicto manupicto-arrow-down" ref="class" pref="6"/>
+        <Property value="html > body > #header > div.container-fluid.visible-md visible-lg > nav.navbar.navbar-inverse > #mega-menu-updated > ul.nav.nav-pills nav-justified js-nav-menu > li.dropdown.js-nav-item > a.dropdown-toggle > span.manupicto.manupicto-arrow-down" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Growing">
+      <Object frame="" ref="Growing">
+        <Property value="(//a[text()[contains(.,'Growing')]])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/header/div/nav/div/ul/li[2]/div/div/div/div[2]/div/div/div/a/span[2]" ref="xpath" pref="5"/>
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="navtitle" ref="class" pref="6"/>
+        <Property value="html > body > #header > div.container-fluid.visible-md visible-lg > nav.navbar.navbar-inverse > #mega-menu-updated > ul.nav.nav-pills nav-justified js-nav-menu > li.dropdown.js-nav-item open > div.dropdown-menu.js-sub-nav dropdown-menu-single > div.dropdown-overlay.row > div.list-group > div.list-group-section > div.list-group-item > div.submenu-updated > div.menu-element > a > span.navtitle" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="ForStarting">
+    <ObjectGroup ref="StartingTextHeader">
+      <Object frame="" ref="StartingTextHeader">
+        <Property value="//h1[text()[contains(.,'Starting')]]" ref="xpath" pref="5"/>
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="Starting to plan">
+    <ObjectGroup ref="DescriptionText">
+      <Object frame="" ref="DescriptionText">
+        <Property value="(//h2)[position()=1]" ref="xpath" pref="5"/>
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//h2)[position()=1]" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="Growing">
+    <ObjectGroup ref="GrowingHeader">
+      <Object frame="" ref="GrowingHeader">
+        <Property value="//h1" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//h1" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Health &amp; dental" ref="Health">
+    <ObjectGroup ref="Investments">
+      <Object frame="" ref="Investments">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Investments" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'Investments')])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/header/div/nav/div/ul/li[4]/a" ref="xpath" pref="5"/>
+        <Property value="dropdown-toggle" ref="class" pref="6"/>
+        <Property value="html > body > #header > div.container-fluid.visible-md visible-lg > nav.navbar.navbar-inverse > #mega-menu-updated > ul.nav.nav-pills nav-justified js-nav-menu > li.dropdown.js-nav-item > a.dropdown-toggle" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Mutual funds">
+      <Object frame="" ref="Mutual funds">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Mutual funds']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/header/div/nav/div/ul/li[4]/div/div/div[3]/div/div/div/div/a/span[2])[1]" ref="xpath" pref="5"/>
+        <Property value="navtitle" ref="class" pref="6"/>
+        <Property value="html > body > #header > div.container-fluid.visible-md visible-lg > nav.navbar.navbar-inverse > #mega-menu-updated > ul.nav.nav-pills nav-justified js-nav-menu > li.dropdown.js-nav-item open > div.dropdown-menu.js-sub-nav > div.dropdown-overlay.row > div.list-group.col-xs-3 > div.list-group-section > div.list-group-item > div.submenu-updated > div.menu-element > a > span.navtitle" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Login | Salesforce" ref="Login">
+    <ObjectGroup ref="username">
+      <Object frame="" ref="username">
+        <Property value="username" ref="name" pref="1"/>
+        <Property value="username" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="/body/div/div/div/div/div[3]/div[3]/form/div/div/input" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div/div/div/div[3]/div[3]/form/div/div/input)[1]" ref="xpath" pref="5"/>
+        <Property value="input r4 wide mb16 mt8 username" ref="class" pref="6"/>
+        <Property value="#username" ref="css" pref="7"/>
+        <Property value="email" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Password">
+      <Object frame="" ref="Password">
+        <Property value="pw" ref="name" pref="1"/>
+        <Property value="password" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@name='pw']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div/div/div/div[3]/div[3]/form/input)[1]" ref="xpath" pref="5"/>
+        <Property value="input r4 wide mb16 mt8 password" ref="class" pref="6"/>
+        <Property value="#password" ref="css" pref="7"/>
+        <Property value="password" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Log In">
+      <Object frame="" ref="Log In">
+        <Property value="Login" ref="name" pref="1"/>
+        <Property value="Login" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@value='Log In']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div/div/div[3]/div[3]/form/input[2]" ref="xpath" pref="5"/>
+        <Property value="button r4 wide primary" ref="class" pref="6"/>
+        <Property value="#Login" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Salesforce - Professional Edition" ref="Salesforce">
+    <ObjectGroup ref="Contacts">
+      <Object frame="" ref="Contacts">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="Contact_Tab" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Contacts']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div/div/nav/ul/li[2]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#Contact_Tab" ref="css" pref="7"/>
+        <Property value="li" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Accounts">
+      <Object frame="" ref="Accounts">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="Account_Tab" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Accounts']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div/div/nav/ul/li[3]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#Account_Tab" ref="css" pref="7"/>
+        <Property value="li" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="Verification">
+    <ObjectGroup ref="Code">
+      <Object frame="" ref="Code">
+        <Property value="smc" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="VerifyCode">
+      <Object frame="" ref="VerifyCode">
+        <Property value="save" ref="name" pref="1"/>
+        <Property value="save" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Contacts: Home ~ Salesforce - Professional Edition" ref="Contacts_">
+    <ObjectGroup ref="New">
+      <Object frame="" ref="New">
+        <Property value="new" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@title='New']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[2]/table/tbody/tr/td[2]/div[3]/div/div/div/form/table/tbody/tr/td[2]/input" ref="xpath" pref="5"/>
+        <Property value="btn" ref="class" pref="6"/>
+        <Property value="input[name=&quot;new&quot;]" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="FirstContactinview">
+      <Object frame="" ref="FirstContactinview">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="/html/body/div/div[2]/table/tbody/tr/td[2]/div[3]/div/div/div[2]/table/tbody/tr[2]/th/a" ref="xpath" pref="5"/>
+        <Property value="Roy, Arnab" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Roy, Arnab')]" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="th.dataCell > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Contact Edit: New Contact ~ Salesforce - Professional Edition" ref="Contact">
+    <ObjectGroup ref="name_salutationcon2">
+      <Object frame="" ref="name_salutationcon2">
+        <Property value="name_salutationcon2" ref="name" pref="1"/>
+        <Property value="name_salutationcon2" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//select[@title='Salutation']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[2]/table/tbody/tr/td[2]/form/div/div[2]/div[3]/table/tbody/tr/td[2]/select" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#name_salutationcon2" ref="css" pref="7"/>
+        <Property value="select-one" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="First Name">
+      <Object frame="" ref="First Name">
+        <Property value="name_firstcon2" ref="name" pref="1"/>
+        <Property value="name_firstcon2" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@name='name_firstcon2']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div[2]/table/tbody/tr/td[2]/form/div/div[2]/div[3]/table/tbody/tr/td[2]/input)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#name_firstcon2" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="*Last Name">
+      <Object frame="" ref="*Last Name">
+        <Property value="name_lastcon2" ref="name" pref="1"/>
+        <Property value="name_lastcon2" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@name='name_lastcon2']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[2]/table/tbody/tr/td[2]/form/div/div[2]/div[3]/table/tbody/tr[3]/td[2]/div/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#name_lastcon2" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="*Account Name">
+      <Object frame="" ref="*Account Name">
+        <Property value="con4" ref="name" pref="1"/>
+        <Property value="con4" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@name='con4']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[2]/table/tbody/tr/td[2]/form/div/div[2]/div[3]/table/tbody/tr[5]/td[2]/div/span/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#con4" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Save &amp; New">
+      <Object frame="" ref="Save &amp; New">
+        <Property value="save_new" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//input[@title='Save &amp; New'])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[2]/table/tbody/tr/td[2]/form/div/div[3]/table/tbody/tr/td[2]/input[2]" ref="xpath" pref="5"/>
+        <Property value="btn" ref="class" pref="6"/>
+        <Property value="#bottomButtonRow > input[name=&quot;save_new&quot;]" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Accounts: Home ~ Salesforce - Professional Edition" ref="Accounts_">
+    <ObjectGroup ref="New">
+      <Object frame="" ref="New">
+        <Property value="new" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@title='New']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[2]/table/tbody/tr/td[2]/div[3]/div/div/div/form/table/tbody/tr/td[2]/input" ref="xpath" pref="5"/>
+        <Property value="btn" ref="class" pref="6"/>
+        <Property value="input[name=&quot;new&quot;]" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="FirstAccountName">
+      <Object frame="" ref="FirstAccountName">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="/html/body/div/div[2]/table/tbody/tr/td[2]/div[3]/div/div/div[2]/table/tbody/tr[2]/th/a" ref="xpath" pref="5"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'IFDS Financial')]" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html.ext-strict > body.hasMotif.accountTab overviewPage ext-webkit ext-chrome sfdcBody brandQuaternaryBgr > #contentWrapper > div.bodyDiv.brdPalette brandPrimaryBrd > #bodyTable > tbody > tr > #bodyCell > div.bRelatedList > div.hotListElement > div.bPageBlock.brandSecondaryBrd secondaryPalette > div.pbBody > table.list > tbody > tr.dataRow.even first highlight > th.dataCell > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Account Edit: New Account ~ Salesforce - Professional Edition" ref="Account">
+    <ObjectGroup ref="*Account Name">
+      <Object frame="" ref="*Account Name">
+        <Property value="acc2" ref="name" pref="1"/>
+        <Property value="acc2" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@name='acc2']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[2]/table/tbody/tr/td[2]/form/div/div[2]/div[3]/table/tbody/tr/td[2]/div/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#acc2" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="acc6">
+      <Object frame="" ref="acc6">
+        <Property value="acc6" ref="name" pref="1"/>
+        <Property value="acc6" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//select[@name='acc6']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[2]/table/tbody/tr/td[2]/form/div/div[2]/div[3]/table/tbody/tr[2]/td[2]/span/select" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#acc6" ref="css" pref="7"/>
+        <Property value="select-one" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Billing Street">
+      <Object frame="" ref="Billing Street">
+        <Property value="acc17street" ref="name" pref="1"/>
+        <Property value="acc17street" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//textarea[@name='acc17street']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[2]/table/tbody/tr/td[2]/form/div/div[2]/div[5]/table/tbody/tr/td[2]/textarea" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#acc17street" ref="css" pref="7"/>
+        <Property value="textarea" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Billing City">
+      <Object frame="" ref="Billing City">
+        <Property value="acc17city" ref="name" pref="1"/>
+        <Property value="acc17city" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@name='acc17city']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[2]/table/tbody/tr/td[2]/form/div/div[2]/div[5]/table/tbody/tr[2]/td[2]/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#acc17city" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Billing State/Province">
+      <Object frame="" ref="Billing State/Province">
+        <Property value="acc17state" ref="name" pref="1"/>
+        <Property value="acc17state" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@name='acc17state']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[2]/table/tbody/tr/td[2]/form/div/div[2]/div[5]/table/tbody/tr[3]/td[2]/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#acc17state" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Billing Zip/Postal Code">
+      <Object frame="" ref="Billing Zip/Postal Code">
+        <Property value="acc17zip" ref="name" pref="1"/>
+        <Property value="acc17zip" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@name='acc17zip']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[2]/table/tbody/tr/td[2]/form/div/div[2]/div[5]/table/tbody/tr[4]/td[2]/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#acc17zip" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Billing Country">
+      <Object frame="" ref="Billing Country">
+        <Property value="acc17country" ref="name" pref="1"/>
+        <Property value="acc17country" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@name='acc17country']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[2]/table/tbody/tr/td[2]/form/div/div[2]/div[5]/table/tbody/tr[5]/td[2]/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#acc17country" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Save &amp; New">
+      <Object frame="" ref="Save &amp; New">
+        <Property value="save_new" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//input[@title='Save &amp; New'])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[2]/table/tbody/tr/td[2]/form/div/div[3]/table/tbody/tr/td[2]/input[2]" ref="xpath" pref="5"/>
+        <Property value="btn" ref="class" pref="6"/>
+        <Property value="#bottomButtonRow > input[name=&quot;save_new&quot;]" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

@@ -1,0 +1,10 @@
+Scenario,Flow,Iteration,SubIteration,URL,TextVerify
+IFDSDemo,IFDSHome_Media_ThoughtLeadership,1,1,http://www.ifdsgroup.com/,Thought Leadership
+IFDSDemo,IFDSHome_Markets_NorthAmerica,1,1,http://www.ifdsgroup.com/,
+IFDSDemo,NewTestCase,1,1,http://www.ifdsgroup.com/,Thought Leadership
+IFDSDemo,RecordTestCase_Demo,1,1,http://www.ifdsgroup.com/,
+IFDSDemo,Spy_TestCase_Demo,1,1,http://www.ifdsgroup.com/,
+IFDSDemo,IFDS_Awards,1,1,http://www.ifdsgroup.com/,Awards
+IFDSDemo,IFDS_Careers,1,1,http://www.ifdsgroup.com/,Career
+IFDSDemo,IFDS_Contacts,1,1,http://www.ifdsgroup.com/,Contact
+IFDSDemo,NewTestCase0,1,1,http://www.ifdsgroup.com/,

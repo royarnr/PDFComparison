@@ -100,7 +100,7 @@ public class Allocator {
 						for (int i=0; i<imagesfromfile2.size();i++)
 						{
 
-							uiForm.writeLog("Copmaring Page "+(i+1));
+							uiForm.writeLog("Comparing Page "+(i+1));
 							PDFHighlight highlight = new PDFHighlight(imagesfromfile1.get(i).getAbsolutePath(), imagesfromfile2.get(i).getAbsolutePath(), report.testresultimages+File.separator+"TestResultPage_"+i+".png");
 
 							//System.out.println("Page "+i+" matches");
@@ -161,7 +161,7 @@ public class Allocator {
 							PDFHighlight highlight = new PDFHighlight(imagesfromfile1.get(i).getAbsolutePath(), imagesfromfile2.get(i).getAbsolutePath(), report.testresultimages+File.separator+"TestResultPage_"+i+".png");
 
 							//System.out.println("Page "+i+" matches");
-							uiForm.writeLog("Copmaring Page "+(i+1));
+							uiForm.writeLog("Comparing Page "+(i+1));
 							String comparedimagefile = highlight.highlightDifferenes();
 							String teststepstatus = highlight.pageimagematch();
 							uiForm.writeLog("Match Result for Page "+(i+1)+" "+teststepstatus);
@@ -180,7 +180,7 @@ public class Allocator {
 							}
 							else
 							{
-								detailreport.failStatements("Passed");
+								detailreport.failStatements("Failed");
 							}
 							detailreport.insertimagefile(".\\"+testparameter.gettestcasename()+"\\TestResultImages\\TestResultPage_"+i+".png", "Page #"+(i+1), "Page "+(i+1)+"Image Path - TestResultImages\\TestResultPage_"+i+".png");
 //							detailreport.insertimagefile(comparedimagefile, "Page #"+(i+1), "comparedimage");
@@ -211,8 +211,9 @@ public class Allocator {
 					summaryreport.infoStatements(new File(testparameter.getinputfile1name()).getName());
 					summaryreport.infoStatements(new File(testparameter.getinputfile2name()).getName());
 
-					summaryreport.failStatements("FAILED");
+					summaryreport.failStatements("Failed");
 					summaryreport.endRow();
+					overallteststatus = "Failed";
 
 				}
 				else{
@@ -221,7 +222,7 @@ public class Allocator {
 					for (int i=0; i<imagesfromfile1.size();i++)
 					{
 
-						uiForm.writeLog("Copmaring Page "+(i+1));
+						uiForm.writeLog("Comparing Page "+(i+1));
 						PDFHighlight highlight = new PDFHighlight(imagesfromfile1.get(i).getAbsolutePath(), imagesfromfile2.get(i).getAbsolutePath(), report.testresultimages+File.separator+"TestResultPage_"+i+".png");
 
 						//System.out.println("Page "+i+" matches");
@@ -268,7 +269,7 @@ public class Allocator {
 						{
 							detailreport.createRow();
 
-							detailreport.headings("Mismatch Occurence");
+							detailreport.headings("Mismatch Occurrence");
 							detailreport.headings("File 1 Text");
 							detailreport.headings("File 2 Text");
 							detailreport.headings("Status");

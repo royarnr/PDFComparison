@@ -1,0 +1,147 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_102
+java.home            : C:\Program Files\Java\jre1.8.0_102
+os.name              : Windows 7
+os.arch              : amd64
+os.version           : 6.1
+file.encoding        : UTF-8
+========================
+Run Started on Fri Jul 28 15:46:24 IST 2017
+Loading Browser Profile
+Loading RunManager
+[Scenario:ManulifeCA] [TestCase: SFDC_AccountCreation] [Description: SFDC_AccountCreation] [Browser: Chrome] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+----------------------------------------------------------
+[1] TestCase selected for execution from [//ManulifeCADemo/Demo]
+----------------------------------------------------------
+Initializing Report
+2017-07-28 15:46:24:07S +0530 [INFO] com.cognizant.cognizantits.engine.reporting.sync.qc.rest.QCRestSync <init>:Initializing TM integration with QC Rest API
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 41013
+Only local connections are allowed.
+2017-07-28 15:46:42:07S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: CosumerPortal:URL | Conditon:  | @28-Jul-2017 15:46:43.043
+[DONE]   | Opened Url: https://login.salesforce.com
+
+===================================================================================================
+
+Step:2   | Object: username | Action: Set | Input: CosumerPortal:Username | Conditon:  | @28-Jul-2017 15:46:53.053
+Using @name [username], Object 'username' Found in 58 ms
+[DONE]   | Entered Text 'arnaba784@gmail.com' on 'username'
+
+===================================================================================================
+
+Step:3   | Object: Password | Action: Set | Input: CosumerPortal:Password | Conditon:  | @28-Jul-2017 15:46:54.054
+Using @name [pw], Object 'Password' Found in 23 ms
+[DONE]   | Entered Text 'arnab1234' on 'Password'
+
+===================================================================================================
+
+Step:4   | Object: Log In | Action: Click | Input:  | Conditon:  | @28-Jul-2017 15:46:54.054
+Using @name [Login], Object 'Log In' Found in 23 ms
+[DONE]   | Clicking on Log In
+
+===================================================================================================
+
+Step:5   | Object: Accounts | Action: Click | Input:  | Conditon:  | @28-Jul-2017 15:46:59.059
+Using @xpath [/html/body/div/div/div/div/nav/ul/li[3]], Object 'Accounts' Found in 12739 ms
+[DONE]   | Clicking on Accounts
+
+===================================================================================================
+
+Step:6   | Object: New | Action: Click | Input:  | Conditon:  | @28-Jul-2017 15:47:18.018
+Using @name [new], Object 'New' Found in 22 ms
+[DONE]   | Clicking on New
+
+===================================================================================================
+
+Step:7   | Object: *Account Name | Action: Set | Input: CosumerPortal:AccountName | Conditon:  | @28-Jul-2017 15:47:21.021
+Using @name [acc2], Object '*Account Name' Found in 24 ms
+[DONE]   | Entered Text 'Manulife Financial' on '*Account Name'
+
+===================================================================================================
+
+Step:8   | Object: acc6 | Action: selectByValue | Input: CosumerPortal:AccountType | Conditon:  | @28-Jul-2017 15:47:23.023
+Using @name [acc6], Object 'acc6' Found in 22 ms
+[DONE]   | Item/s 'Customer' is/are selected from list acc6
+
+===================================================================================================
+
+Step:9   | Object: Billing Street | Action: Set | Input: CosumerPortal:Billing Street | Conditon:  | @28-Jul-2017 15:47:24.024
+Using @name [acc17street], Object 'Billing Street' Found in 23 ms
+[DONE]   | Entered Text '123 Main St' on 'Billing Street'
+
+===================================================================================================
+
+Step:10  | Object: Billing City | Action: Set | Input: CosumerPortal:Billing City | Conditon:  | @28-Jul-2017 15:47:24.024
+Using @name [acc17city], Object 'Billing City' Found in 18 ms
+[DONE]   | Entered Text 'Kitchener' on 'Billing City'
+
+===================================================================================================
+
+Step:11  | Object: Billing State/Province | Action: Set | Input: CosumerPortal:Billing State | Conditon:  | @28-Jul-2017 15:47:24.024
+Using @name [acc17state], Object 'Billing State/Province' Found in 24 ms
+[DONE]   | Entered Text 'ON' on 'Billing State/Province'
+
+===================================================================================================
+
+Step:12  | Object: Billing Zip/Postal Code | Action: Set | Input: CosumerPortal:Postal Code | Conditon:  | @28-Jul-2017 15:47:27.027
+Using @name [acc17zip], Object 'Billing Zip/Postal Code' Found in 35 ms
+[DONE]   | Entered Text 'L9T8L9' on 'Billing Zip/Postal Code'
+
+===================================================================================================
+
+Step:13  | Object: Billing Country | Action: Set | Input: CosumerPortal:Country | Conditon:  | @28-Jul-2017 15:47:27.027
+Using @name [acc17country], Object 'Billing Country' Found in 31 ms
+[DONE]   | Entered Text 'CA' on 'Billing Country'
+
+===================================================================================================
+
+Step:14  | Object: Save & New | Action: Click | Input:  | Conditon:  | @28-Jul-2017 15:47:28.028
+Using @name [save_new], Object 'Save & New' Found in 19 ms
+[DONE]   | Clicking on Save & New
+
+===================================================================================================
+
+Step:15  | Object: Accounts | Action: Click | Input:  | Conditon:  | @28-Jul-2017 15:47:29.029
+Using @id [Account_Tab], Object 'Accounts' Found in 26 ms
+[DONE]   | Clicking on Accounts
+
+===================================================================================================
+
+Step:16  | Object: FirstAccountName | Action: assertElementTextContains | Input: CosumerPortal:AccountName | Conditon:  | @28-Jul-2017 15:47:30.030
+Using @xpath [/html/body/div/div[2]/table/tbody/tr/td[2]/div[3]/div/div/div[2]/table/tbody/tr[2]/th/a], Object 'FirstAccountName' Found in 23 ms
+[PASS]   | FirstAccountName's Text CONTAINS Manulife Financial 
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : ManulifeCA:SFDC_AccountCreation
+Executed Steps       : 16
+Passed Steps         : 16
+Failed Steps         : 0
+Time Taken           : 00:00:57
+-----------------------------------------------------
+
+[ERROR:UNABLE TO REACH TEST MANAGEMENT MODULE!!!]
+[DEBUG]   | Unable to Connect to TM Module
+
+===================================================================================================
+
+Run Finished on Fri Jul 28 15:47:31 IST 2017
+-----------------------------------------------------
+ExecutionDate        : 28-Jul-2017 15-46-24
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:57
+ReportPath           : file:///D:\Arnab Da\cognizant-intelligent-test-scripter-1.0-setup\cognizant-intelligent-test-scripter-1.0\Projects\ManulifeCADemo\Results\TestExecution\ManulifeCADemo\Demo\28-Jul-2017 15-46-24\summary.html
+-----------------------------------------------------
