@@ -1,5 +1,0 @@
-Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
-true,IFDSDemo,IFDSHome_Media_ThoughtLeadership,Single,Passed,Chrome,Default,WINDOWS
-true,IFDSDemo,IFDS_Awards,Single,Passed,Chrome,Default,WINDOWS
-true,IFDSDemo,IFDS_Careers,Single,Passed,Chrome,Default,WINDOWS
-false,IFDSDemo,IFDS_Contacts,Single,Passed,Firefox,Default,WINDOWS

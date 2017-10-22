@@ -1,5 +1,0 @@
-Step,ObjectName,Description,Action,Input,Condition,Reference
-1,Browser,Open the Url [<Data>] in the Browser,Open,IFDSGroup:URL,,
-2,Contact,"Click the [<Object>] ",Click,,,IFDS
-3,IFDS Client Login,"Click the [<Object>] ",Click,,,IFDS3
-4,IFDS Insight (Canada),"Click the [<Object>] ",Click,,,IFDS3

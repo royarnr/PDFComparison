@@ -1,7 +1,0 @@
-Step,ObjectName,Description,Action,Input,Condition,Reference
-1,Browser,Open the Url [<Data>] in the Browser,Open,IFDSGroup:URL,,
-2,Browser,Wait for [<Data>] milli seconds,pause,@3000,,
-3,AlertOK,"Click the [<Object>] ",ClickIfExists,,,IFDSGroupHome
-4,MarketLink,"Click the [<Object>] ",Click,,,IFDSGroupHome
-5,NorthAmericaLink,"Click the [<Object>] ",Click,,,IFDSGroupHome
-6,iFastImage,Assert if [<Object>] element is displayed,assertElementDisplayed,,,IFDSMarkets_NA

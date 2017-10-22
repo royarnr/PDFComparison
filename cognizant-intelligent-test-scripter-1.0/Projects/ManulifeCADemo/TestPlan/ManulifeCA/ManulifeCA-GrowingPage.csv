@@ -1,7 +1,0 @@
-Step,ObjectName,Description,Action,Input,Condition,Reference
-1,Browser,Open the Url [<Data>] in the Browser,Open,CosumerPortal:URL,,
-2,Insurance,"Click the [<Object>] ",Click,,,ForYou
-3,Health & dental,"Click the [<Object>] ",Click,,,ForYou
-4,Investments,"Click the [<Object>] ",Click,,,Health
-5,Mutual funds,"Click the [<Object>] ",Click,,,Health
-6,Browser,Assert if Browser's Title Contains [<Data>],assertTitleContains,CosumerPortal:PageTileMutual,,
