@@ -59,7 +59,11 @@ public class PDFPageExtractor {
 		BufferedImage imageonpage = null;
 		File oldFile = new File(filename);
 
+		
 		if (oldFile.exists()) {
+			
+			
+			
 			PDDocument document = null;
 			try {
 				document = PDDocument.load(oldFile);
@@ -128,6 +132,8 @@ public class PDFPageExtractor {
 
 
 		}
+		
+		
 		return listoffiles;
 
 
@@ -161,6 +167,7 @@ public class PDFPageExtractor {
 		PDFFile pdffile = null;
 		try {
 			pdffile = new PDFFile(buf);
+			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -33,7 +33,7 @@ public class SummaryReport {
 	
             String temp = "";
 	
-            String htmlheader="<html><h1 style=\"text-align:center\">PDF Comparision Validation Summary</h1><head>";
+            String htmlheader="<html><h1 style=\"text-align:center\">XML Comparision Validation Summary</h1><head>";
             htmlheader+="<title>Report Summary HTML</title><style type=\"text/css\">#maintable {  width: 800px;  margin: 0 auto; } #headertable {  width: 800px;  margin: 0 auto; [blue]margin-bottom:50px;[/blue] } </style>";
             
             htmlheader+="<style>body {background-color:lightgrey}</style>";
@@ -58,8 +58,8 @@ public class SummaryReport {
 //                    +elapsedtime+"</td><td bgcolor = \"#FCF3CF\" style= \"color:blue\">Overall Status :  "
 //                    +overallstatus+"</td></tr>";
             temp += "<tr><th bgcolor = \"#ffb000\" style= \"color:blue\">Test Case Name"+
-                    "</th><th bgcolor = \"#ffb000\" style= \"color:blue\">Input File Name (1)"
-                    +"</th><th bgcolor = \"#ffb000\" style= \"color:blue\">Input File Name (2)"
+                    "</th><th bgcolor = \"#ffb000\" style= \"color:blue\">XML Input File Name (1)"
+                    +"</th><th bgcolor = \"#ffb000\" style= \"color:blue\">XML Input File Name (2)"
                     +"</th><th bgcolor = \"#ffb000\" style= \"color:blue\">Execution Status"
                     +"</th></tr>";
 //            temp += "<tr><td bgcolor = \"#FCF3CF\" style= \"color:blue\">Execution Start Time : "
